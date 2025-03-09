@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeOrbi - Smart School Bus Tracking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        header a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 15px;
+        }
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        .highlight {
+            color: #FF9800;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            background: #f9f9f9;
+        }
+        .feature-box {
+            max-width: 300px;
+            text-align: center;
+            margin: 20px;
+        }
+        .feature-box img {
+            width: 100px;
+            height: auto;
+        }
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><strong style="font-size: 2em;">SafeOrbi</strong></div>
+    </header>
+
+    <section class="hero">
+        <h1>Smart <span class="highlight">Child Tracking</span> with Real-Time BLE Technology</h1>
+        <p>Unlike GPS-only or RFID scanning, SafeOrbi ensures <strong>continuous tracking</strong> of your child inside the school bus, giving parents real-time updates.</p>
+        <img src="https://i.postimg.cc/rF1vvKT7/pexels-caleboquendo-3877563.jpg" alt="Parent and Child Safety">
+    </section>
+
+    <section class="features">
+        <div class="feature-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828765.png" alt="Safety Icon">
+            <h3>Continuous Tracking</h3>
+            <p>No manual scanning! Our BLE-powered ID cards automatically detect when your child is <strong>onboard or offboard</strong>, ensuring accurate monitoring.</p>
+        </div>
+
+        <div class="feature-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/1309/1309305.png" alt="Updates Icon">
+            <h3>Real-Time Notifications</h3>
+            <p>Parents receive <strong>instant alerts</strong> when their child boards/exits the bus. No more guesswork, just real-time safety updates!</p>
+        </div>
+
+        <div class="feature-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" alt="Battery Efficiency Icon">
+            <h3>Power-Saving Smart Tags</h3>
+            <p>Our BLE tags use <strong>auto-sleep mode</strong> to extend battery life up to <strong>6-9 months</strong>, reducing maintenance costs.</p>
+        </div>
+
+        <div class="feature-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/2563/2563654.png" alt="Transparency Icon">
+            <h3>Transparency & Trust</h3>
+            <p>We ensure complete transparency with real-time monitoring, ensuring parents' peace of mind and trust.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="cta">
+        <h2>Get Early Access</h2>
+        <p>We're launching soon! Join our waitlist and be the first to experience SafeOrbi.</p>
+        <form class="contact-form" action="https://formspree.io/f/mrbpzvwe" method="POST">
+            <input type="email" name="email" placeholder="Your email id" required>
+            <textarea name="message" placeholder="Your enquiry" rows="4" required></textarea>
+            <button type="submit">Join Waitlist</button>
+        </form>
+    </section>
+</body>
+</html>
